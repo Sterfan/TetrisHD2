@@ -55,6 +55,7 @@ public class Movement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W))
             {
                 rb.velocity = Vector2.up * jumpForce;
+                AudioManager.PlayMusic("pl_jump");
             }
         }
             if(isGrounded == false)
