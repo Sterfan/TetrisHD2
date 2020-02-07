@@ -124,12 +124,30 @@ NavMeshSettings:
 --- !u!1001 &96185071
 PrefabInstance:
   m_ObjectHideFlags: 0
+<<<<<<< master
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24732432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.342, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1612209573}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &300718822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+>>>>>>> Added button sounds: click; hover and jump audio
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
+<<<<<<< master
       propertyPath: audioFiles.Array.data[3].volume
       value: 0.309
       objectReference: {fileID: 0}
@@ -146,10 +164,19 @@ PrefabInstance:
     - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
       propertyPath: audioFiles.Array.data[5].isLooping
+=======
+      propertyPath: audioFiles.Array.data[6].volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
+        type: 3}
+      propertyPath: audioFiles.Array.data[3].volume
+>>>>>>> Added button sounds: click; hover and jump audio
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
+<<<<<<< master
       propertyPath: audioFiles.Array.data[6].volume
       value: 0.106
       objectReference: {fileID: 0}
@@ -157,11 +184,19 @@ PrefabInstance:
         type: 3}
       propertyPath: audioFiles.Array.data[6].isLooping
       value: 0
+=======
+      propertyPath: audioFiles.Array.data[6].isLooping
+      value: 1
+>>>>>>> Added button sounds: click; hover and jump audio
       objectReference: {fileID: 0}
     - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
       propertyPath: audioFiles.Array.data[6].playOnAwake
+<<<<<<< master
       value: 0
+=======
+      value: 1
+>>>>>>> Added button sounds: click; hover and jump audio
       objectReference: {fileID: 0}
     - target: {fileID: 5851124045094167616, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
@@ -201,7 +236,11 @@ PrefabInstance:
     - target: {fileID: 5851124045094167616, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< master
       value: 7
+=======
+      value: 6
+>>>>>>> Added button sounds: click; hover and jump audio
       objectReference: {fileID: 0}
     - target: {fileID: 5851124045094167616, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
