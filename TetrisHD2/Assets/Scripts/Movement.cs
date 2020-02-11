@@ -56,6 +56,7 @@ public class Movement : MonoBehaviour
             {
                 
                 rb.velocity = Vector2.up * jumpForce;
+                AudioManager.PlayMusic("pl_jump");
             }
         }
             if(isGrounded == false)
