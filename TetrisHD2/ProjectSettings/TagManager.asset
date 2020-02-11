@@ -16,7 +16,11 @@ TagManager:
   - 
   - 
   - Background
+<<<<<<< HEAD
   - Land
+=======
+  - Enemy
+>>>>>>> master
   - 
   - 
   - 
@@ -42,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemies
+    uniqueID: 137817871
     locked: 0
