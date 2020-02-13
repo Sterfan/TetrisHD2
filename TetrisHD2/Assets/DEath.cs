@@ -15,5 +15,7 @@ public class DEath : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Destroy(Melon);
+        AudioManager.PlayMusic("pl_death");
+        AudioManager.PlayMusic("gm_lose");
     }
 }
