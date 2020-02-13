@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8423491514017646926}
   - component: {fileID: 8423491514017646961}
   - component: {fileID: 8423491514017646963}
+  - component: {fileID: 1181074675660751495}
+  - component: {fileID: -3141893910915394223}
   m_Layer: 0
   m_Name: Enemy5
   m_TagString: Untagged
@@ -117,7 +119,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: -0.014303446, y: -0.016639233}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,3 +146,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 0}
+--- !u!114 &1181074675660751495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8423491514017646962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec28a8fff9744848ada4a85ca0656c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3141893910915394223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8423491514017646962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c82e9096513bd4a960c98cd00d9a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
