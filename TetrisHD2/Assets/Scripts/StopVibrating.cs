@@ -15,7 +15,7 @@ public class StopVibrating : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        float h = input.GetAxis("Horizontal") * moveSpeed;
+        float h = Input.GetAxis("Horizontal") * moveSpeed;
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.right * moveSpeed); 
