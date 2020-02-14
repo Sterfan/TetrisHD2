@@ -14,15 +14,17 @@ public class MonsterControl : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		target = GameObject.Find("Player");
+		target = GameObject.Find("TargetFloor1");
 		rb = GetComponent<Rigidbody2D>();
 		moveSpeed = Random.Range(1f, 3f);
+		
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
 		MoveMonster();
+	
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
@@ -52,4 +54,5 @@ public class MonsterControl : MonoBehaviour
 		else
 			rb.velocity = Vector3.zero;
 	}
+
 }

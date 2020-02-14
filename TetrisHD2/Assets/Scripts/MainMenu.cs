@@ -7,9 +7,15 @@ public class MainMenu : MonoBehaviour
 {
 
     // Erik's scene needs to put into the build indes to work with this.
-    public void PlayGame ()
+    public void PressSound()
     {
         AudioManager.PlayMusic("bt_push");
+    }
+    public void PlayGame ()
+    {
+        AudioManager.StopMusic("menu_music");
+        AudioManager.PlayMusic("gm_start");
+        AudioManager.PlayMusic("music");
         Debug.Log("Go to Erik's scene");
         SceneManager.LoadScene("ErikN");
     }
@@ -18,10 +24,10 @@ public class MainMenu : MonoBehaviour
     {
         AudioManager.PlayMusic("bt_hover");
     }
-
+    
     public void QuitGame ()
     {
-        AudioManager.PlayMusic("bt_push");
+        PressSound();
         Debug.Log ("Quit");
         Application.Quit ();
     }
