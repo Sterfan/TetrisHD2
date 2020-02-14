@@ -81,7 +81,31 @@ MonoBehaviour:
     isLooping: 0
     playOnAwake: 0
   - audioName: music
-    audioClip: {fileID: 8300000, guid: e9dc608d0afc8e44e8331e71480be03e, type: 3}
+    audioClip: {fileID: 8300000, guid: 7ce32a2515e469b45a75a84c1646ee83, type: 3}
+    volume: 0
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: menu_music
+    audioClip: {fileID: 8300000, guid: a47a103f208d28840a434ade10e7ca22, type: 3}
+    volume: 0
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: pl_death
+    audioClip: {fileID: 8300000, guid: 446a008b35d2e58449b33b4caa350efb, type: 3}
+    volume: 0
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: gm_start
+    audioClip: {fileID: 8300000, guid: 9ee4128dfd13a1c40abf5179d0879778, type: 3}
+    volume: 0
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: gm_lose
+    audioClip: {fileID: 8300000, guid: f2842e40dcc185240a3b66648ae1a590, type: 3}
     volume: 0
     source: {fileID: 0}
     isLooping: 0

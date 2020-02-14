@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4210035855654343483}
   - component: {fileID: 4210035855654343482}
   - component: {fileID: 4210035855654343481}
+  - component: {fileID: -2149547437874958151}
+  - component: {fileID: -2493885931841251755}
   m_Layer: 0
   m_Name: Enemy3
   m_TagString: Untagged
@@ -171,3 +173,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 0}
+--- !u!114 &-2149547437874958151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4210035855654343480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec28a8fff9744848ada4a85ca0656c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2493885931841251755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4210035855654343480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c82e9096513bd4a960c98cd00d9a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
