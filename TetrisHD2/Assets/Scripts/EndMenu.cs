@@ -7,11 +7,15 @@ public class EndMenu : MonoBehaviour
 {
 
     // Erik's scene needs to put into the build indes to work with this.
-    public void PlayGame ()
+    public void PressSound()
     {
         AudioManager.PlayMusic("bt_push");
-        Debug.Log("Play the game again.");
-        SceneManager.LoadScene("ErikN");
+    }
+    public void QuitGame ()
+    {
+        PressSound();
+        Debug.Log("Quit");
+        Application.Quit();
     }
 
     public void HoverSound()
@@ -23,6 +27,6 @@ public class EndMenu : MonoBehaviour
     {
         AudioManager.PlayMusic("bt_push");
         Debug.Log ("go to menu");
-        SceneManager.LoadScene("Sterfan");
+        SceneManager.LoadScene("Menu");
     }
 }
