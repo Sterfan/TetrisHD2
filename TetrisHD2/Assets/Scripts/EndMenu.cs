@@ -11,16 +11,17 @@ public class EndMenu : MonoBehaviour
     {
         AudioManager.PlayMusic("bt_push");
     }
+
+    public void HoverSound()
+    {
+        AudioManager.PlayMusic("bt_hover");
+    }
+
     public void QuitGame ()
     {
         PressSound();
         Debug.Log("Quit");
         Application.Quit();
-    }
-
-    public void HoverSound()
-    {
-        AudioManager.PlayMusic("bt_hover");
     }
 
     public void MenuGame ()
