@@ -11,20 +11,21 @@ public class MainMenu : MonoBehaviour
     {
         AudioManager.PlayMusic("bt_push");
     }
-    public void PlayGame ()
-    {
-        AudioManager.StopMusic("menu_music");
-        AudioManager.PlayMusic("gm_start");
-        AudioManager.PlayMusic("music");
-        Debug.Log("Go to Erik's scene");
-        SceneManager.LoadScene("NickS");
-    }
 
     public void HoverSound()
     {
         AudioManager.PlayMusic("bt_hover");
     }
-    
+
+    public void PlayGame ()
+    {
+        AudioManager.StopMusic("menu_music");
+        AudioManager.PlayMusic("gm_start");
+        AudioManager.PlayMusic("music");
+        Debug.Log("Go to Nicks's scene");
+        SceneManager.LoadScene("NickS");
+    }
+
     public void QuitGame ()
     {
         PressSound();
