@@ -5,28 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class DEath : MonoBehaviour
 {
-    float timer;
-    const float waitingTime = 3.0f;
+    public float deathTimer;
+    public float deathTimerGoal;
     public GameObject Melon;
+
+    private bool startTimer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        startTimer = false;       
+}
+    private void Update()
+    {
+        if (startTimer == true)
+        {
+            deathTimer += 1f * Time.deltaTime;
+
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(Melon);
+        Melon.SetActive(false);
         AudioManager.PlayMusic("pl_death");
         AudioManager.PlayMusic("gm_lose");
-        Debug.Log("Load DeathMenu");
-        SceneManager.LoadScene("DeathMenu");
-        //timer += Time.deltaTime;
-        //if(timer >= waitingTime)
-        //{
-        //    Debug.Log("Load DeathMenu");
-        //    SceneManager.LoadScene("DeathMenu");
-        //}
+        startTimer = true;
+        if(deathTimer < deathTimerGoal)
+        {
+            Debug.Log("Load DeathMenu");
+            SceneManager.LoadScene("DeathMenu");
+        }
     }
 }
