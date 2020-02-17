@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DEath : MonoBehaviour
 {
-    float timer;
-    const float waitingTime = 3.0f;
+    int deathTimer = 2;
     public GameObject Melon;
 
     // Start is called before the first frame update
@@ -20,13 +19,11 @@ public class DEath : MonoBehaviour
         Destroy(Melon);
         AudioManager.PlayMusic("pl_death");
         AudioManager.PlayMusic("gm_lose");
-        Debug.Log("Load DeathMenu");
-        SceneManager.LoadScene("DeathMenu");
-        //timer += Time.deltaTime;
-        //if(timer >= waitingTime)
-        //{
-        //    Debug.Log("Load DeathMenu");
-        //    SceneManager.LoadScene("DeathMenu");
-        //}
+        deathTimer -= 1;
+        if(deathTimer <= 0)
+        {
+            Debug.Log("Load DeathMenu");
+            SceneManager.LoadScene("DeathMenu");
+        }
     }
 }
