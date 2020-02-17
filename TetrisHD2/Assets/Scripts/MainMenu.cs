@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
         AudioManager.PlayMusic("gm_start");
         AudioManager.PlayMusic("music");
         Debug.Log("Go to Erik's scene");
-        SceneManager.LoadScene("ErikN");
+        SceneManager.LoadScene("NickS");
     }
 
     public void HoverSound()

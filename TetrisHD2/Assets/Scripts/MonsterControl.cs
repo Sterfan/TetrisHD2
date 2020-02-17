@@ -14,7 +14,7 @@ public class MonsterControl : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		target = GameObject.Find("EnemyTarget");
+		target = GameObject.Find("TargetFloor1");
 		rb = GetComponent<Rigidbody2D>();
 		moveSpeed = Random.Range(1f, 3f);
 		
