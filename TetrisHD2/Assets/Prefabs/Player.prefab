@@ -90,6 +90,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dab9c8a7be927b458f92cc4394d9461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathTimer: 0
+  deathTimerGoal: 5
   Melon: {fileID: 3319188094663626484}
 --- !u!1 &3319188094663626484
 GameObject:
@@ -200,6 +202,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  audioSrc: {fileID: 0}
 --- !u!114 &3319188094663626445
 MonoBehaviour:
   m_ObjectHideFlags: 0
