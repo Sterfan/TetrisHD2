@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &151412268
+--- !u!1 &127318932
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,44 +129,73 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 151412270}
-  - component: {fileID: 151412269}
+  - component: {fileID: 127318934}
+  - component: {fileID: 127318933}
   m_Layer: 0
-  m_Name: Spawnpoint (6)
+  m_Name: MonstersSpawner (15)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &151412269
+--- !u!114 &127318933
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151412268}
+  m_GameObject: {fileID: 127318932}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &151412270
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &127318934
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151412268}
+  m_GameObject: {fileID: 127318932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.32, y: 5.99, z: -6.4101562}
+  m_LocalPosition: {x: -5.6500006, y: 10.9, z: -6.4101562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &351792095
+--- !u!1 &183074525
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,87 +203,71 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 351792097}
-  - component: {fileID: 351792096}
+  - component: {fileID: 183074527}
+  - component: {fileID: 183074526}
   m_Layer: 0
-  m_Name: Spawnpoint (3)
+  m_Name: MonstersSpawner (23)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &351792096
+--- !u!114 &183074526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351792095}
+  m_GameObject: {fileID: 183074525}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &351792097
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &183074527
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351792095}
+  m_GameObject: {fileID: 183074525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.94, y: 7.45, z: -6.4101562}
+  m_LocalPosition: {x: -0.72, y: 11.43, z: -6.4101562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &736303992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 736303994}
-  - component: {fileID: 736303993}
-  m_Layer: 0
-  m_Name: Spawnpoint (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &736303993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736303992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &736303994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736303992}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.97, y: 5.89, z: -6.4101562}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &746175555 stripped
 GameObject:
@@ -358,6 +371,228 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &794741530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794741532}
+  - component: {fileID: 794741531}
+  m_Layer: 0
+  m_Name: MonstersSpawner (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &794741531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794741530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &794741532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794741530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.41, y: 9.14, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &993240287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993240289}
+  - component: {fileID: 993240288}
+  m_Layer: 0
+  m_Name: MonstersSpawner (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &993240288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993240287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &993240289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993240287}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.21, y: 11.69, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1100177654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100177656}
+  - component: {fileID: 1100177655}
+  m_Layer: 0
+  m_Name: MonstersSpawner (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1100177655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100177654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1100177656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100177654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.85, y: 11.42, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1220543678
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,19 +622,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1981139641}
-  - {fileID: 736303994}
-  - {fileID: 351792097}
-  - {fileID: 2004926725}
-  - {fileID: 151412270}
-  - {fileID: 1395853537}
+  spawnPoints: []
   monsters:
-  - {fileID: 6898549288124636389, guid: f3efc406aaf8e124ba7fc9bc87bde9c1, type: 3}
-  - {fileID: 5501894374401351692, guid: d266d1980b8b6904a826e53b91653b5c, type: 3}
-  - {fileID: 4210035855654343480, guid: eca2bbb9f7c11444e8fa747d5235817e, type: 3}
-  - {fileID: 5958739856253716889, guid: aa4d6826d79502249b6dcc22e851a773, type: 3}
-  - {fileID: 8423491514017646962, guid: 56decb1250dce144ea61091b3bf4eb07, type: 3}
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1220543680
 Transform:
   m_ObjectHideFlags: 0
@@ -408,11 +637,85 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220543678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: 5.97, z: -6.4101562}
+  m_LocalPosition: {x: 0.12, y: 10.21, z: -6.4101562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1346142146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1346142148}
+  - component: {fileID: 1346142147}
+  m_Layer: 0
+  m_Name: MonstersSpawner (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1346142147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346142146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1346142148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346142146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.05, y: 9.17, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370544378
 GameObject:
@@ -495,7 +798,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1395853535
+--- !u!1 &1501631259
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -503,87 +806,71 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1395853537}
-  - component: {fileID: 1395853536}
+  - component: {fileID: 1501631261}
+  - component: {fileID: 1501631260}
   m_Layer: 0
-  m_Name: Spawnpoint (5)
+  m_Name: MonstersSpawner (13)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1395853536
+--- !u!114 &1501631260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395853535}
+  m_GameObject: {fileID: 1501631259}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &1395853537
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1501631261
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395853535}
+  m_GameObject: {fileID: 1501631259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.62, y: 5.89, z: -6.4101562}
+  m_LocalPosition: {x: -6.87, y: 8.49, z: -6.4101562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1415156120
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1415156122}
-  - component: {fileID: 1415156121}
-  m_Layer: 0
-  m_Name: Spawnpoint (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1415156121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415156120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &1415156122
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415156120}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.48, y: 7.3, z: -6.4101562}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1508525073
 PrefabInstance:
@@ -664,6 +951,154 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a8f78f0be89fd2499de1501f9f34e44, type: 3}
+--- !u!1 &1529222634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529222636}
+  - component: {fileID: 1529222635}
+  m_Layer: 0
+  m_Name: MonstersSpawner (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1529222635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529222634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1529222636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529222634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.97, y: 8.76, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611962367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611962369}
+  - component: {fileID: 1611962368}
+  m_Layer: 0
+  m_Name: MonstersSpawner (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1611962368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611962367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1611962369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611962367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0100002, y: 11.62, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1726508638
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +1182,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1981139639
+--- !u!1 &1848838073
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -755,44 +1190,147 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1981139641}
-  - component: {fileID: 1981139640}
+  - component: {fileID: 1848838075}
+  - component: {fileID: 1848838074}
   m_Layer: 0
-  m_Name: Spawnpoint (1)
+  m_Name: MonstersSpawner (10)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1981139640
+--- !u!114 &1848838074
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981139639}
+  m_GameObject: {fileID: 1848838073}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &1981139641
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1848838075
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981139639}
+  m_GameObject: {fileID: 1848838073}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.42, y: 6.02, z: -6.4101562}
+  m_LocalPosition: {x: 8.5, y: 11.36, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1861615158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861615160}
+  - component: {fileID: 1861615159}
+  m_Layer: 0
+  m_Name: MonstersSpawner (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1861615159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861615158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &1861615160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861615158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.22, y: 8.91, z: -6.4101562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2004926723
+--- !u!1 &2020016757
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -800,42 +1338,71 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2004926725}
-  - component: {fileID: 2004926724}
+  - component: {fileID: 2020016759}
+  - component: {fileID: 2020016758}
   m_Layer: 0
-  m_Name: Spawnpoint (4)
+  m_Name: MonstersSpawner (2)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2004926724
+--- !u!114 &2020016758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004926723}
+  m_GameObject: {fileID: 2020016757}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  monsters: []
---- !u!4 &2004926725
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &2020016759
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004926723}
+  m_GameObject: {fileID: 2020016757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.56, y: 7.45, z: -6.4101562}
+  m_LocalPosition: {x: 2.71, y: 11.56, z: -6.4101562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104423752
 GameObject:
@@ -1037,3 +1604,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eca2bbb9f7c11444e8fa747d5235817e, type: 3}
+--- !u!1 &2143808673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143808675}
+  - component: {fileID: 2143808674}
+  m_Layer: 0
+  m_Name: MonstersSpawner (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2143808674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143808673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 993240289}
+  - {fileID: 2020016759}
+  - {fileID: 1501631261}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 794741532}
+  - {fileID: 127318934}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1100177656}
+  - {fileID: 2143808675}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1346142148}
+  - {fileID: 1611962369}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1848838075}
+  - {fileID: 1529222636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 183074527}
+  - {fileID: 0}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+--- !u!4 &2143808675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143808673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.2100005, y: 8.65, z: -6.4101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
