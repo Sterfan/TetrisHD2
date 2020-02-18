@@ -7,6 +7,10 @@ public class EndMenu : MonoBehaviour
 {
 
     // Erik's scene needs to put into the build indes to work with this.
+    private void Start()
+    {
+        AudioManager.PlayMusic("menu_music");
+    }
     public void PressSound()
     {
         AudioManager.PlayMusic("bt_push");
