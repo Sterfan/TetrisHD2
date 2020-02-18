@@ -11,6 +11,7 @@ public class EndMenu : MonoBehaviour
     {
         AudioManager.PlayMusic("menu_music");
     }
+
     public void PressSound()
     {
         AudioManager.PlayMusic("bt_push");
@@ -21,11 +22,11 @@ public class EndMenu : MonoBehaviour
         AudioManager.PlayMusic("bt_hover");
     }
 
-    public void QuitGame ()
+    public void ResetGame()
     {
         PressSound();
-        Debug.Log("Quit");
-        Application.Quit();
+        Debug.Log("Play game again");
+        SceneManager.LoadScene("NickS");
     }
 
     public void MenuGame ()
