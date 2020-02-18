@@ -14,7 +14,7 @@ public class MonstersSpawnerControl : MonoBehaviour
 	void Start()
 	{
 		spawnAllowed = true;
-		InvokeRepeating("SpawnAMonster", 4f, 7f);
+		InvokeRepeating("SpawnAMonster", 5f, 7f);
 	}
 
 	void SpawnAMonster()

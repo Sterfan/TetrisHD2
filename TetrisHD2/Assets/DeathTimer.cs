@@ -3,35 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DEath : MonoBehaviour
+public class DeathTimer : MonoBehaviour
 {
     public float deathTimer;
     public float deathTimerGoal;
-    public GameObject Melon;
-
-    private bool startTimer;
-
+    private static bool startTimer;
     // Start is called before the first frame update
     void Start()
     {
-        startTimer = false;       
-}
-    private void Update()
+        startTimer = false;
+    }
+
+     public static void StartTimer()
+    {
+        startTimer = true;
+    }
+
+
+    void Update()
     {
         if (startTimer == true)
         {
             deathTimer += 1f * Time.deltaTime;
-
         }
-    }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        Melon.SetActive(false);
-        AudioManager.PlayMusic("pl_death");
-        AudioManager.PlayMusic("gm_lose");
-        startTimer = true;
-        if(deathTimer < deathTimerGoal)
+    
+        if (deathTimer > deathTimerGoal)
         {
             Debug.Log("Load DeathMenu");
             SceneManager.LoadScene("DeathMenu");
