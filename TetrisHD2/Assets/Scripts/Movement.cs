@@ -20,6 +20,8 @@ public class Movement : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    public AudioSource audioSrc;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,32 @@ public class Movement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
         moveInput = Input.GetAxisRaw("Horizontal");
+        if (rb.velocity.x != 0)
+            isMoving = true;
+        
+        else
+            isMoving = false;
+
+        if (isMoving && isGrounded)
+        {
+            if (!audioSrc.isPlaying)
+                audioSrc.Play();
+        }
+        else
+            audioSrc.Stop();
+
+        if (isMoving == true)
+        {
+            Debug.Log("Moving is true!");
+        }
+        else
+        {
+            Debug.Log("moving is false");
+        }
+            
+
+
+        
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
         animator.SetFloat("Zpeed", Mathf.Abs(moveInput));
@@ -56,6 +84,7 @@ public class Movement : MonoBehaviour
             {
                 
                 rb.velocity = Vector2.up * jumpForce;
+                AudioManager.PlayMusic("pl_jump");
             }
         }
             if(isGrounded == false)
