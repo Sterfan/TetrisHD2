@@ -18,12 +18,20 @@ public class DEath : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        DeathTimer.StartTimer();   
-        AudioManager.PlayMusic("pl_death");
-        AudioManager.StopMusic("music");
-        AudioManager.PlayMusic("gm_lose");
-        Melon.SetActive(false);
-
-
+        if (this.gameObject.tag == "Enemy")
+        {
+            DeathTimer.StartTimer();
+            AudioManager.PlayMusic("pl_death");
+            AudioManager.StopMusic("music");
+            AudioManager.PlayMusic("gm_lose");
+            Melon.SetActive(false);
+        }
+        else
+        {
+            AudioManager.StopMusic("music");
+            //AudioManager.PlayMusic("gm_lose");
+            Debug.Log("Load WinMenu");
+            SceneManager.LoadScene("WinMenu");
+        }
     }
 }
