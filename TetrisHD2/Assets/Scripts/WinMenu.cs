@@ -33,6 +33,7 @@ public class WinMenu : MonoBehaviour
         Debug.Log("Play game again");
         SceneManager.LoadScene("NickS");
         AudioManager.StopMusic("menu_music");
+        AudioManager.StopMusic("gm_win");
         AudioManager.PlayMusic("music");
 
     }
@@ -40,6 +41,8 @@ public class WinMenu : MonoBehaviour
     public void MenuGame()
     {
         AudioManager.PlayMusic("bt_push");
+        AudioManager.StopMusic("gm_win");
+        AudioManager.PlayMusic("menu_music");
         Debug.Log("go to menu");
         SceneManager.LoadScene("Menu");
     }
