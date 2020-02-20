@@ -29,7 +29,6 @@ public class DEath : MonoBehaviour
         else
         {
             AudioManager.StopMusic("music");
-            //AudioManager.PlayMusic("gm_lose");
             Debug.Log("Load WinMenu");
             SceneManager.LoadScene("WinMenu");
         }
