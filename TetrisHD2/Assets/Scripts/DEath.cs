@@ -18,7 +18,7 @@ public class DEath : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (this.gameObject.tag == "Enemy")
+        if (other.tag == "Enemy")
         {
             DeathTimer.StartTimer();
             AudioManager.PlayMusic("pl_death");
