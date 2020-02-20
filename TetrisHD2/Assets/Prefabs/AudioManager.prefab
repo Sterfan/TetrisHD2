@@ -58,7 +58,7 @@ MonoBehaviour:
     playOnAwake: 0
   - audioName: enm_land
     audioClip: {fileID: 8300000, guid: b469a96b5f72f8f489686bd797b470e3, type: 3}
-    volume: 0.6
+    volume: 0.8
     source: {fileID: 0}
     isLooping: 0
     playOnAwake: 0
@@ -82,16 +82,16 @@ MonoBehaviour:
     playOnAwake: 0
   - audioName: music
     audioClip: {fileID: 8300000, guid: 7ce32a2515e469b45a75a84c1646ee83, type: 3}
-    volume: 0.2
+    volume: 0.3
     source: {fileID: 0}
     isLooping: 1
     playOnAwake: 0
   - audioName: menu_music
     audioClip: {fileID: 8300000, guid: a47a103f208d28840a434ade10e7ca22, type: 3}
-    volume: 0.2
+    volume: 0.3
     source: {fileID: 0}
     isLooping: 1
-    playOnAwake: 1
+    playOnAwake: 0
   - audioName: pl_death
     audioClip: {fileID: 8300000, guid: 446a008b35d2e58449b33b4caa350efb, type: 3}
     volume: 0.8
@@ -106,6 +106,12 @@ MonoBehaviour:
     playOnAwake: 0
   - audioName: gm_lose
     audioClip: {fileID: 8300000, guid: f2842e40dcc185240a3b66648ae1a590, type: 3}
+    volume: 0.7
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: gm_win
+    audioClip: {fileID: 8300000, guid: 557eb844fa652fb4fa76334634cadfd4, type: 3}
     volume: 0.7
     source: {fileID: 0}
     isLooping: 0
