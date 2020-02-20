@@ -25,7 +25,7 @@ public class EndMenu : MonoBehaviour
     public void ResetGame()
     {
         PressSound();
-        AudioManager.StopMusic("men_music");
+        AudioManager.StopMusic("menu_music");
         AudioManager.PlayMusic("music");
         Debug.Log("Play game again");
         SceneManager.LoadScene("NickS");
