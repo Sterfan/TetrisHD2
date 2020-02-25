@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DeathTimer : MonoBehaviour
 {
-    public float deathTimer;
-    public float deathTimerGoal;
+    private float deathTimer = 0;
+    private float deathTimerGoal = 3;
     private static bool startTimer;
     // Start is called before the first frame update
     void Start()
