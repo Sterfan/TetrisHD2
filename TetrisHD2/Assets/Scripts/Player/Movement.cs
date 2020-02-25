@@ -50,11 +50,11 @@ public class Movement : MonoBehaviour
 
         if (isMoving == true)
         {
-            Debug.Log("Moving is true!");
+            //Debug.Log("Moving is true!");
         }
         else
         {
-            Debug.Log("moving is false");
+            //Debug.Log("moving is false");
         }
             
 

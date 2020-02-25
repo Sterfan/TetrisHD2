@@ -130,7 +130,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127318934}
-  - component: {fileID: 127318933}
   m_Layer: 0
   m_Name: MonstersSpawner7
   m_TagString: Untagged
@@ -138,35 +137,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &127318933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127318932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &127318934
 Transform:
   m_ObjectHideFlags: 0
@@ -403,7 +373,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794741532}
-  - component: {fileID: 794741531}
   m_Layer: 0
   m_Name: MonstersSpawner3
   m_TagString: Untagged
@@ -411,35 +380,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &794741531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794741530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &794741532
 Transform:
   m_ObjectHideFlags: 0
@@ -463,6 +403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 995370731}
+  - component: {fileID: 995370732}
   m_Layer: 0
   m_Name: MonsterSpawners
   m_TagString: Untagged
@@ -494,6 +435,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &995370732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995370730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aebe5340d1c12c42be0ed7a15010c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1861615160}
+  - {fileID: 2020016759}
+  - {fileID: 794741532}
+  - {fileID: 1100177656}
+  - {fileID: 1346142148}
+  - {fileID: 1501631261}
+  - {fileID: 127318934}
+  - {fileID: 2143808675}
+  - {fileID: 1611962369}
+  - {fileID: 1529222636}
+  monsters:
+  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
+  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
+  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
+  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
+  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
+  maxAmount: 6
 --- !u!1 &1093264833
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +583,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1100177656}
-  - component: {fileID: 1100177655}
   m_Layer: 0
   m_Name: MonstersSpawner4
   m_TagString: Untagged
@@ -620,35 +590,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1100177655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100177654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1100177656
 Transform:
   m_ObjectHideFlags: 0
@@ -672,7 +613,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1346142148}
-  - component: {fileID: 1346142147}
   m_Layer: 0
   m_Name: MonstersSpawner5
   m_TagString: Untagged
@@ -680,35 +620,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1346142147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346142146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1346142148
 Transform:
   m_ObjectHideFlags: 0
@@ -817,7 +728,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1501631261}
-  - component: {fileID: 1501631260}
   m_Layer: 0
   m_Name: MonstersSpawner6
   m_TagString: Untagged
@@ -825,35 +735,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1501631260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501631259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1501631261
 Transform:
   m_ObjectHideFlags: 0
@@ -877,7 +758,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1529222636}
-  - component: {fileID: 1529222635}
   m_Layer: 0
   m_Name: MonstersSpawner10
   m_TagString: Untagged
@@ -885,35 +765,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1529222635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529222634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1529222636
 Transform:
   m_ObjectHideFlags: 0
@@ -937,7 +788,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1611962369}
-  - component: {fileID: 1611962368}
   m_Layer: 0
   m_Name: MonstersSpawner9
   m_TagString: Untagged
@@ -945,35 +795,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1611962368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611962367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1611962369
 Transform:
   m_ObjectHideFlags: 0
@@ -1080,8 +901,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1861615160}
-  - component: {fileID: 1861615159}
-  - component: {fileID: 1861615161}
   m_Layer: 0
   m_Name: MonstersSpawner 1
   m_TagString: Untagged
@@ -1089,35 +908,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1861615159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861615158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &1861615160
 Transform:
   m_ObjectHideFlags: 0
@@ -1132,32 +922,6 @@ Transform:
   m_Father: {fileID: 995370731}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1861615161
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861615158}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 3}
-  m_EdgeRadius: 0
 --- !u!1 &2020016757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,7 +931,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020016759}
-  - component: {fileID: 2020016758}
   m_Layer: 0
   m_Name: MonstersSpawner2
   m_TagString: Untagged
@@ -1175,35 +938,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2020016758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020016757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &2020016759
 Transform:
   m_ObjectHideFlags: 0
@@ -1227,7 +961,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2143808675}
-  - component: {fileID: 2143808674}
   m_Layer: 0
   m_Name: MonstersSpawner8
   m_TagString: Untagged
@@ -1235,35 +968,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2143808674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143808673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42772b9c858e7764ca625b20b28a3e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1861615160}
-  - {fileID: 2020016759}
-  - {fileID: 794741532}
-  - {fileID: 1100177656}
-  - {fileID: 1346142148}
-  - {fileID: 1501631261}
-  - {fileID: 127318934}
-  - {fileID: 2143808675}
-  - {fileID: 1611962369}
-  - {fileID: 1529222636}
-  monsters:
-  - {fileID: 5673016207492718551, guid: 9bc41d48a320d1647b59aedc1c806ad4, type: 3}
-  - {fileID: 5263137194685086939, guid: 13fd8324558b44742a94f18ff8b5e450, type: 3}
-  - {fileID: 8934611987117053966, guid: 116b610311cea2f49a2f2c7e2ec0b875, type: 3}
-  - {fileID: 1406086611894381237, guid: 45ce882f82036564fbbeed142392e663, type: 3}
-  - {fileID: 3315615356677149507, guid: 4da1040703b78e74cbc1a06f94905921, type: 3}
 --- !u!4 &2143808675
 Transform:
   m_ObjectHideFlags: 0
