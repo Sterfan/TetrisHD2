@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3315615356677149504}
   - component: {fileID: 3315615356677149505}
   - component: {fileID: 3315615356677149506}
+  - component: {fileID: 7260570473905304802}
   m_Layer: 8
   m_Name: BlockT
   m_TagString: Enemy
@@ -158,3 +159,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.8205745, y: 1.244843}
   m_EdgeRadius: 0
+--- !u!114 &7260570473905304802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315615356677149507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccb2dde33ee35746a27e935b39796ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 2
+  minVelocity: 10
