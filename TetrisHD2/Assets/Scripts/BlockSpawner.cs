@@ -58,5 +58,4 @@ public class BlockSpawner : MonoBehaviour
             SpawnChoice();
         }
     }
-
 }
