@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2086846656659091131}
   - component: {fileID: 2086846656659091130}
   - component: {fileID: 2086846656659091133}
+  - component: {fileID: 6983473016514873697}
   m_Layer: 0
   m_Name: GoalSprite
   m_TagString: Untagged
@@ -108,3 +109,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.46, y: 1.83}
   m_EdgeRadius: 0
+--- !u!95 &6983473016514873697
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086846656659091129}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a8d332cd37d9de341bbf3a2c0f3cee9c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
