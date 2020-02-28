@@ -8,6 +8,7 @@ TagManager:
   - Land
   - Destroy
   - Platform
+  - Goal
   layers:
   - Default
   - TransparentFX
