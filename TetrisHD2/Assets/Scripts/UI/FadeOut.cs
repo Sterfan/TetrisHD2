@@ -6,7 +6,7 @@ public class FadeOut : MonoBehaviour
 {
     private void Update()
     {
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("a") || Input.GetKeyDown("d"))
         {
             StartCoroutine(DoFade());
 

@@ -7,6 +7,7 @@ public class MovingPlatforms : MonoBehaviour
 
     bool moveRight = true;
     bool moveUp = true;
+    float dirEction;
 
     public bool moveHorizontal;
     public bool moveVertical;
