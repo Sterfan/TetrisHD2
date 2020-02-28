@@ -22,8 +22,8 @@ public class MainMenu : MonoBehaviour
         AudioManager.StopMusic("menu_music");
         AudioManager.PlayMusic("gm_start");
         AudioManager.PlayMusic("music");
-        Debug.Log("Go to Nicks's scene");
-        SceneManager.LoadScene("NickS");
+        Debug.Log("Go to level1 scene");
+        SceneManager.LoadScene("Zone1");
     }
 
     public void QuitGame ()
