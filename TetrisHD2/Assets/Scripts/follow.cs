@@ -20,7 +20,7 @@ public class follow : MonoBehaviour
 
     void Update()
     {
-        if (playerObject.transform.position.y <= -4f)
+        if (playerObject.transform.position.y <= -3.8f)
         {
             Vector3 cameraVector = new Vector3(playerObject.transform.position.x, playerObject.transform.position.y, -10);
             transform.position = cameraVector;
