@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 6653683286803301326}
   - component: {fileID: 6653683286803301313}
   - component: {fileID: 6653683286803301312}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BorderColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
