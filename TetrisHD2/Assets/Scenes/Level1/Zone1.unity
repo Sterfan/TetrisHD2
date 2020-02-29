@@ -3184,7 +3184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObject: {fileID: 3319188093181610725}
-  cameraVector: {x: 44, y: -3, z: 0}
+  lockYAxis: 1
 --- !u!4 &1840611612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653683286259177129, guid: fd72adc6cafb1cb49b480006bf9467c0,
