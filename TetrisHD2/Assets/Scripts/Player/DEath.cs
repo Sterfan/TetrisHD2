@@ -8,6 +8,11 @@ public class DEath : MonoBehaviour
     public GameObject Melon;
     public GameObject Death;
     public GameObject Canvas;
+
+    public GameObject Goal1;
+    public GameObject Goal2;
+    public GameObject Goal3;
+
     void Start()
     {
 
@@ -37,9 +42,25 @@ public class DEath : MonoBehaviour
         }
         else if (other.tag == "Goal")
         {
-            AudioManager.StopMusic("music");
-            //AudioManager.PlayMusic("");
-            SceneManager.LoadScene("WinMenu");
+            if (Goal1)
+            {
+                //AudioManager.StopMusic("music");
+                //AudioManager.PlayMusic("");
+                SceneManager.LoadScene("Zone2");
+            }
+            else if (Goal2)
+            {
+                //AudioManager.StopMusic("music");
+                //AudioManager.PlayMusic("");
+                SceneManager.LoadScene("Zone3");
+            }
+            else if (Goal3)
+            {
+                AudioManager.StopMusic("music");
+                //AudioManager.PlayMusic("");
+                SceneManager.LoadScene("WinMenu");
+            }
+
         }
         else if (other.tag == "Platform")
         {
