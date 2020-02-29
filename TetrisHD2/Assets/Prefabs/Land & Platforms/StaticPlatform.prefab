@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6653683286259177128}
   - component: {fileID: 6653683286259177131}
   - component: {fileID: 6653683286259177130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StaticPlatform
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6653683286259177133}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.588905, y: -8.207727, z: -0.02421875}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children:
