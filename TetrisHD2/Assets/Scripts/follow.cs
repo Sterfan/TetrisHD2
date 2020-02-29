@@ -8,19 +8,9 @@ public class follow : MonoBehaviour
     public bool lockYAxis = true;
     //public Vector3 cameraVector;
 
-    void Start()
-    {
-
-    }
-
-    //void Update()
-    //{
-    //    Vector3 cameraVector = new Vector3 (playerObject.transform.position.x, FollowPit(), -10);
-    //    transform.position = cameraVector;
-    //}
-
     void Update()
     {
+  
         if (lockYAxis == true)
         {
             if (playerObject.transform.position.y <= -3.8f)
