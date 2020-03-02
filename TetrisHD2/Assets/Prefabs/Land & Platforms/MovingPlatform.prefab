@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6653683286259177131}
   - component: {fileID: 2229147863214400335}
   - component: {fileID: 6653683286259177130}
-  m_Layer: 0
-  m_Name: HMovingPlatform
+  m_Layer: 8
+  m_Name: MovingPlatform
   m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
