@@ -10,6 +10,9 @@ public class WinMenu : MonoBehaviour
     private void Start()
     {
         AudioManager.PlayMusic("gm_win");
+        AudioManager.StopMusic("Level1");
+        AudioManager.StopMusic("Level2");
+        AudioManager.StopMusic("Level3");
         StartCoroutine(WaitForMusic(3.750f));
     }
     IEnumerator WaitForMusic(float waitTime)
@@ -31,10 +34,10 @@ public class WinMenu : MonoBehaviour
     {
         PressSound();
         Debug.Log("Play game again");
-        SceneManager.LoadScene("NickS");
+        SceneManager.LoadScene("Zone1");
         AudioManager.StopMusic("menu_music");
         AudioManager.StopMusic("gm_win");
-        AudioManager.PlayMusic("music");
+        AudioManager.PlayMusic("Level1");
 
     }
 
