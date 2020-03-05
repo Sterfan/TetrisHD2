@@ -28,7 +28,7 @@ public class DEath : MonoBehaviour
         {
             DeathTimer.StartTimer();
             AudioManager.PlayMusic("pl_death");
-            AudioManager.StopMusic("music");
+            //AudioManager.StopMusic("");
             AudioManager.PlayMusic("gm_lose");
             Melon.SetActive(false);
         }
@@ -44,20 +44,21 @@ public class DEath : MonoBehaviour
         {
             if (Goal1)
             {
-                //AudioManager.StopMusic("music");
-                //AudioManager.PlayMusic("");
+                AudioManager.StopMusic("Level1");
+                AudioManager.PlayMusic("Level2");
                 SceneManager.LoadScene("Zone2");
             }
             else if (Goal2)
             {
-                //AudioManager.StopMusic("music");
-                //AudioManager.PlayMusic("");
+                AudioManager.StopMusic("Level2");
+                AudioManager.PlayMusic("Level3");
                 SceneManager.LoadScene("Zone3");
             }
             else if (Goal3)
             {
-                AudioManager.StopMusic("music");
-                //AudioManager.PlayMusic("");
+                AudioManager.StopMusic("Level3");
+                AudioManager.PlayMusic("gm_win");
+                AudioManager.PlayMusic("menu_music");
                 SceneManager.LoadScene("WinMenu");
             }
 
