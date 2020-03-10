@@ -25,8 +25,7 @@ public class EndMenuCanvas : MonoBehaviour
     public void ResetGame()
     {
         PressSound();
-        //AudioManager.StopMusic("menu_music");
-        AudioManager.PlayMusic("music");
+        //AudioManager.PlayMusic("music");
         Canvas.SetActive(false);
         Debug.Log("Start level over");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -35,6 +34,9 @@ public class EndMenuCanvas : MonoBehaviour
     public void MenuGame()
     {
         AudioManager.PlayMusic("bt_push");
+        AudioManager.StopMusic("Level1");
+        AudioManager.StopMusic("Level2");
+        AudioManager.StopMusic("Level3");
         AudioManager.PlayMusic("menu_music");
         Debug.Log("go to menu");
         SceneManager.LoadScene("Menu");

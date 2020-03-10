@@ -1,37 +1,28 @@
 fileFormatVersion: 2
-guid: be319ab99a725714abf4643a4b4e784b
+guid: 0dd6a9730a7194a498ea571176717a00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8411383685424948195
-    second: Watarmellon_0
+      213: -2313579082687861476
+    second: MelonWake_spritesheet_0
   - first:
-      213: 1845033293752250169
-    second: Watarmellon_1
+      213: 4731494241357380058
+    second: MelonWake_spritesheet_1
   - first:
-      213: 2175597894203758750
-    second: Watarmellon_2
+      213: -38689899349890485
+    second: MelonWake_spritesheet_2
   - first:
-      213: 4074502915647659218
-    second: Watarmellon_3
+      213: -5883482881370019471
+    second: MelonWake_spritesheet_3
   - first:
-      213: 68256535958605632
-    second: Watarmellon_4
+      213: -1773515557822741343
+    second: MelonWake_spritesheet_4
   - first:
-      213: 4291437211116440196
-    second: Watarmellon_5
+      213: -8281531727385431523
+    second: MelonWake_spritesheet_5
   - first:
-      213: 7045270771885807268
-    second: Watarmellon_6
-  - first:
-      213: 6716796915747737102
-    second: Watarmellon_7
-  - first:
-      213: 666628078198392701
-    second: Watarmellon_8
-  - first:
-      213: -7795169821485422031
-    second: Watarmellon_9
+      213: -4095063028577650402
+    second: MelonWake_spritesheet_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -61,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -93,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,211 +119,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Watarmellon_0
+      name: MelonWake_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 496
-        width: 62
-        height: 54
+        x: 5
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1cdab08a13c44b80800000000000000
-      internalID: -8411383685424948195
+      spriteID: c1dad98051484efd0800000000000000
+      internalID: -2313579082687861476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Watarmellon_1
+      name: MelonWake_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 441
-        width: 62
-        height: 54
+        x: 22
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93f2fd85100ea9910800000000000000
-      internalID: 1845033293752250169
+      spriteID: ad9b9e8a1f4a9a140800000000000000
+      internalID: 4731494241357380058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Watarmellon_2
+      name: MelonWake_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 385
-        width: 62
-        height: 54
+        x: 39
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e985a1a02c6413e10800000000000000
-      internalID: 2175597894203758750
+      spriteID: b4aaad4ddbb867ff0800000000000000
+      internalID: -38689899349890485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Watarmellon_3
+      name: MelonWake_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 331
-        width: 62
-        height: 54
+        x: 57
+        y: 9
+        width: 16
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dcd87b60da8b8830800000000000000
-      internalID: 4074502915647659218
+      spriteID: 17929ddcd7ba95ea0800000000000000
+      internalID: -5883482881370019471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Watarmellon_4
+      name: MelonWake_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 275
-        width: 62
-        height: 54
+        x: 74
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04f496335fe72f000800000000000000
-      internalID: 68256535958605632
+      spriteID: 1a4c8542ff43367e0800000000000000
+      internalID: -1773515557822741343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Watarmellon_5
+      name: MelonWake_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1
-        y: 221
-        width: 61
-        height: 53
+        x: 91
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48a0d70186f3e8b30800000000000000
-      internalID: 4291437211116440196
+      spriteID: d12701975c6121d80800000000000000
+      internalID: -8281531727385431523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Watarmellon_6
+      name: MelonWake_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 167
-        width: 62
-        height: 53
+        x: 108
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a612b88074d5c160800000000000000
-      internalID: 7045270771885807268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Watarmellon_7
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 111
-        width: 61
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0e459f253bd63d50800000000000000
-      internalID: 6716796915747737102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Watarmellon_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 57
-        width: 62
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d77015684b6504900800000000000000
-      internalID: 666628078198392701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Watarmellon_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 62
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13a2482195ef1d390800000000000000
-      internalID: -7795169821485422031
+      spriteID: e193bc04fd96b27c0800000000000000
+      internalID: -4095063028577650402
       vertices: []
       indices: 
       edges: []
