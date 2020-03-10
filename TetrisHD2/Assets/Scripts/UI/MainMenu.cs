@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
     {
         AudioManager.StopMusic("menu_music");
         AudioManager.PlayMusic("gm_start");
-        AudioManager.PlayMusic("music");
+        AudioManager.PlayMusic("Level1");
         Debug.Log("Go to level1 scene");
         SceneManager.LoadScene("Zone1");
     }

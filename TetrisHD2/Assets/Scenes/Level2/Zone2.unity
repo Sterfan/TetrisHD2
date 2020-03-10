@@ -1872,6 +1872,11 @@ PrefabInstance:
       propertyPath: audioFiles.Array.data[7].playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
+        type: 3}
+      propertyPath: audioFiles.Array.data[14].volume
+      value: 0.625
+      objectReference: {fileID: 0}
     - target: {fileID: 5851124045094167616, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
       propertyPath: m_LocalPosition.x
