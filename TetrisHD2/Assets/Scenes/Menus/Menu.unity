@@ -909,13 +909,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905623571}
   m_CullTransparentMesh: 0
---- !u!1001 &1317451646
+--- !u!1001 &1224311495
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
+        type: 3}
+      propertyPath: audioFiles.Array.data[12].playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4158966059102714394, guid: aaaaadcd59bb1cf47a2e7fe2a365e3c4,
         type: 3}
       propertyPath: audioFiles.Array.data[7].playOnAwake

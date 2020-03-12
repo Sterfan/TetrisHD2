@@ -84,11 +84,11 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 7ce32a2515e469b45a75a84c1646ee83, type: 3}
     volume: 0.3
     source: {fileID: 0}
-    isLooping: 1
+    isLooping: 0
     playOnAwake: 0
   - audioName: menu_music
-    audioClip: {fileID: 8300000, guid: a47a103f208d28840a434ade10e7ca22, type: 3}
-    volume: 0.3
+    audioClip: {fileID: 8300000, guid: 4f46522d0f8ccb6499ea5f5d25ae4060, type: 3}
+    volume: 0.6
     source: {fileID: 0}
     isLooping: 1
     playOnAwake: 0
@@ -115,4 +115,22 @@ MonoBehaviour:
     volume: 0.7
     source: {fileID: 0}
     isLooping: 0
+    playOnAwake: 0
+  - audioName: Level1
+    audioClip: {fileID: 8300000, guid: 4155d39177df8d345840600fb5551f18, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Level2
+    audioClip: {fileID: 8300000, guid: aa1ee35a7e71086479243a4cac642c78, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Level3
+    audioClip: {fileID: 8300000, guid: 19bc6496eaf552f489e32e830a4fb1dc, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    isLooping: 1
     playOnAwake: 0
