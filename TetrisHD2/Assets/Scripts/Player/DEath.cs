@@ -12,6 +12,8 @@ public class DEath : MonoBehaviour
     public GameObject Goal1;
     public GameObject Goal2;
     public GameObject Goal3;
+    public GameObject Goal4;
+    public GameObject Goal5;
 
     void Start()
     {
@@ -46,15 +48,23 @@ public class DEath : MonoBehaviour
             {
                 AudioManager.StopMusic("Level1");
                 AudioManager.PlayMusic("Level2");
-                SceneManager.LoadScene("Zone2");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else if (Goal2)
             {
                 AudioManager.StopMusic("Level2");
                 AudioManager.PlayMusic("Level3");
-                SceneManager.LoadScene("Zone3");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else if (Goal3)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else if (Goal4)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else if (Goal5)
             {
                 AudioManager.StopMusic("Level3");
                 AudioManager.PlayMusic("gm_win");
