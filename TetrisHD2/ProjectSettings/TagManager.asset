@@ -9,6 +9,7 @@ TagManager:
   - Destroy
   - Platform
   - Goal
+  - PlatformDestroy
   layers:
   - Default
   - TransparentFX
