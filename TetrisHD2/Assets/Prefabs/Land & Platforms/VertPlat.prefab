@@ -291,8 +291,8 @@ MonoBehaviour:
   moveHorizontal: 0
   moveVertical: 1
   moveSpeed: 1
-  maxValue: 15
-  minValue: -10
+  maxValue: 20
+  minValue: -7
 --- !u!1 &7707885834969767916
 GameObject:
   m_ObjectHideFlags: 0
